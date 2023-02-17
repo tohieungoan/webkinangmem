@@ -27,3 +27,13 @@ function showSlides() {
   setTimeout(showSlides, 5000);
 }
 
+
+function myFunction() {
+    const element = document.getElementById("content");
+    element.scrollIntoView();
+  }
+  function myFunction1() {
+    const element = document.getElementById("header");
+    element.scrollIntoView();
+  }
+
